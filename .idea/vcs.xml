@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Marvel" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PlanesRadar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/activities" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/alsa" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/alsa-cashless" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/application-template-mvp-android" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/athletic-club-socios" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/beer-test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/beersmvvm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/juegos-once" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/kata-mvvm-recipes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mcdonalds" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mcm-test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/melia/melia-b2c" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/nx/nx" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/once-betapp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/once-fichapp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/once-portal-empleados" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/qrScanner" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/samples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/woffu" vcs="Git" />
+  </component>
+</project>
