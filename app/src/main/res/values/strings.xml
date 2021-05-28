@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Transactions</string>
+    <string name="default_error_message">Ha ocurrido un error, por favor inténtelo más tarde</string>
+    <string name="connection_error_message">Ha ocurrido un error de conexión, revisa tu conexión a internet</string>
 </resources>
