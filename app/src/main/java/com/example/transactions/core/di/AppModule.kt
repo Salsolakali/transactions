@@ -3,6 +3,7 @@ package com.example.beersmvvm.core.di
 import android.app.Application
 import android.content.Context
 import com.example.transactions.R
+import com.example.transactions.features.home.ui.Dictionary
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -29,5 +30,10 @@ class AppModule {
     @Named(nameApp)
     fun provideNameApp(context: Context): String {
         return context.getString(R.string.app_name)
+    }
+
+    @Provides
+    fun provideDictionary(context: Context): Dictionary {
+        return Dictionary()
     }
 }

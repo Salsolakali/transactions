@@ -1,3 +1,5 @@
 package com.example.transactions.features.home.domain.model
 
-data class Transaction(val sku: String, val amount: Double, val currency: String)
+data class Transaction(var sku: String, var amount: Double, var currency: String) {
+    constructor() : this("", 0.0, "")
+}

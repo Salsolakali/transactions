@@ -1,5 +1,6 @@
 package com.example.transactions.features.home.ui
 
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -19,6 +20,7 @@ class HomeViewModel
     private val getRatesUseCase: GetRatesUseCase,
     private val getTransactionsUseCase: GetTransactionsUseCase
 ) : ViewModel() {
+
     private lateinit var job: Job
     var rates: MutableLiveData<ResultOf<List<Rate>>> = MutableLiveData()
     var transactions: MutableLiveData<ResultOf<List<Transaction>>> = MutableLiveData()
@@ -47,13 +49,13 @@ class HomeViewModel
         }
     }
 
-    fun mapResults(rates: List<Transaction>) {
+    fun getItems(rates: List<Transaction>): List<String> {
         val mutableList = mutableListOf<String>()
         rates.forEach {
             if(!mutableList.contains(it.sku)){
                 mutableList.add(it.sku)
             }
         }
-        mutableList
+        return mutableList
     }
 }
